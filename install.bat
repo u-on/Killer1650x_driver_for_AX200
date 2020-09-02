@@ -1,4 +1,7 @@
 @echo off
+set driver_version=21.110.1.1
+
+
 mode con lines=15 cols=70
 color 27
 echo off
@@ -8,7 +11,7 @@ if ERRORLEVEL 1 echo 签名证书安装失败&goto out
 if ERRORLEVEL 0 echo 签名证书安装成功
 echo 安装驱动.. 
 echo 在弹出的Windows安全中心窗口, 选择【始终安装此驱动程序软件】
-%SystemRoot%\System32\InfDefaultInstall.exe "%cd%\win10x64\netwtw08.inf"
+%SystemRoot%\System32\InfDefaultInstall.exe "%cd%\Ver\%driver_version%\netwtw08.inf"
 
 echo 清理签名证书
 reg delete "HKLM\SOFTWARE\Microsoft\SystemCertificates\ROOT\Certificates\A1586ECB289E75CD938CD6A4026B74D93DAF08B7" /f
