@@ -1,5 +1,5 @@
 @echo off
-set driver_version=21.110.1.1
+set driver_version=22.20.0.6
 
 
 mode con lines=15 cols=70
