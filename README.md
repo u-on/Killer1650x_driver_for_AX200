@@ -1,3 +1,11 @@
+minisign public key:
+
+```
+RWQXCDfjHdqlmLAyZr0fH/GSm8JltnJdurcwZpYwb4rOYLBiRsgvRlcR
+```
+
+
+
 # Killer1650x_driver_for_AX200
 
 ```
